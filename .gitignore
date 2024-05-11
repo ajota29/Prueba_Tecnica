@@ -1,0 +1,24 @@
+# Node artifacts
+node_modules
+
+# Dependency directories
+/dist/
+/bazel-out/
+/bazel-bin/
+/bazel-genfiles/
+/bazel-testlogs/
+/out/
+
+# IDE files
+/.idea
+/.vscode
+*.code-workspace
+
+# Compiled output
+*.js
+*.js.map
+*.d.ts
+
+# Dependency files
+package-lock.json
+yarn.lock

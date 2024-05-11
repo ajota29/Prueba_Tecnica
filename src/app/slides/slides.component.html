@@ -1,0 +1,22 @@
+<!-- <div class="slider">
+    <div class="slides" [style.transform]="'translateX(' + (-slideIndex * slideWidth) + 'px)'">
+        @for (user of images; track user) {    
+            <div class="slide" >
+                 
+                <img [src]="user" alt="Slide">
+                
+            </div>
+        } @empty {
+            Empty list of users
+        }
+    </div>
+
+    <button class="prev" (click)="prevSlide()">&#10094;</button>
+    <button class="next" (click)="nextSlide()">&#10095;</button>
+</div> -->
+
+<div class="slider">
+    <img [src]="images[currentIndex]" alt="Slide">
+    <button (click)="prevSlide()">Prev</button>
+    <button (click)="nextSlide()">Next</button>
+  </div>

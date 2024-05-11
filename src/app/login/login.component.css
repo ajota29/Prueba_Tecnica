@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.formulario{
+    width: 140%;
+    background: white;
+    border-radius: 30px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    padding: 20px;
+
+}
+
+.formulario h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    color:blue;
+}
+
+.formulario form{
+    box-sizing: border-box;
+}
+
+form .username{
+    position: relative;
+    margin: 40px;
+}
+
+.username input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 40px;
+    border-color: silver;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+
+.username label{
+    position: absolute;
+    top: -35%;
+    left: 5px;
+    color: rgb(0, 0, 255);
+    transform: translateY(-50%);
+    font-size: 14px;
+    pointer-events: none
+} 
+
+.recordar{
+    margin: -5px 0 20px 5px;
+    color:blue;
+    cursor:pointer;
+    font-size: 15px;
+}
+
+.recordar:hover{
+    text-decoration: underline;
+
+}
+
+input[type="submit"]{
+    padding: 10px 20px;
+    background: blue;
+    border-radius: 25px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    margin: auto;
+    display: block;
+}
+
+input[type="submit"]:hover{
+    border-color: rgb(1, 1, 231);
+    transition: 5s;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .formulario {
+        width: 100%;
+    }
+
+    .main .slider {
+        display: none;
+    }
+}
